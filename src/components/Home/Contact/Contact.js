@@ -1,33 +1,24 @@
 import React from 'react';
-import './Contact.css'
+import './Contact.css';
 
 const Contact = () => {
     return (
-        <section className="contact">
-            <div className="container">
-                <div className="section-header text-center text-white mb-5">
-                    <h5 className="text-primary">Contact</h5>
-                    <h2 className=""> Contact With Us</h2>
-                </div>
-
-                <div className="col-md-9 mx-auto">
-                   <form action="">
-                       <div className="form-group">
-                           <input type="text" className="form-control" placeholder="Email Address *"/>
-                       </div>
-                       <div className="form-group">
-                           <input type="text" className="form-control" placeholder="Subject *"/>
-                       </div>
-                       <div className="form-group">
-                           <textarea name="" className="form-control" id=""  cols="30" rows="10"  placeholder="Write Your Message *"></textarea>
-                       </div>
-                       <div className="form-group text-center">
-                           <button type="button" className="btn btn-primary"> Submit </button>
-                       </div>
-                   </form>
-               </div>
-            </div>
-        </section>
+        <div className='container-fluid p-5 contact'>
+            <h5 className="sub-heading">
+                contact us
+            </h5>
+            <h2 className="heading text-white">
+                Always Connect with us
+            </h2>
+            <form className='contact-form d-flex flex-column'>
+                <input className='contact-email p-2 my-2' type="text" required placeholder='Email Address*' />
+                <input className='contact-email p-2 my-2' type="text" required placeholder='Email Address*' />
+                <textarea className='contact-message p-2 my-2' required placeholder='Your Message*'></textarea>
+                <button className="btn-main py-1 my-2 align-self-center px-5">
+                    submit
+                </button>
+            </form>
+        </div>
     );
 };
 
