@@ -16,6 +16,6 @@ Used Technology:
 - Firebase for frontend hosting
 - Heroku for backend hosting
 
- [Live LInk](https://emajohn-simple-with-login.web.app)
+ [Live LInk](https://anis-your-doctor.web.app/)
 
 # your-doctor-client
