@@ -14,15 +14,15 @@ const Apoinment = () => {
                         APPOINMENT
                     </h5>
                     <h2 className='py-1 text-white'>
-                        Make an appoinment
+                        Make Your Appoinment
                         <br />
                         Today
                     </h2>
                     <p className="py-1 text-white-50">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi error commodi quos deserunt minus autem.
                     </p>
-                    <button className="btn-main align-self-start mt-1 mb-2">
-                        Learn more
+                    <button className="rounded btn-main align-self-start mt-1 mb-2">
+                        Details
                     </button>
                 </div>
             </div>

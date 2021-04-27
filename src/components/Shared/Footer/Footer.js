@@ -50,12 +50,12 @@ const Footer = () => {
                         </ul>
                         <div className="mt-5">
                             <h6>Call now</h6>
-                            <button className="btn-main">+2025550295</button>
+                            <button className="btn-main">+01815623457</button>
                         </div>
                     </FooterCol>
                 </div>
                 <div className="copyRight text-center">
-                    <p>Copyright {(new Date()).getFullYear()}&copy; All Rights Reserved by <cite>Naimur Rahman</cite></p>
+                    <p>Copyright {(new Date()).getFullYear()}&copy; All Rights Reserved by <cite>Mohammad Anisul Islam</cite></p>
                 </div>
             </div>
         </footer>
