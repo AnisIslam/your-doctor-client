@@ -4,7 +4,7 @@ import BlogPost from '../BlogPost/BlogPost';
 
 const blogData = [
     {
-        title: 'Check at least a doctor in a year for your teeth',
+        title: 'Make Your Tooth Strong ',
         description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, placeat totam laborum maiores, esse assumenda porro error natus sit ipsam.        ',
         author: 'Dr. Mustakim Billah',
         authorImg: wilson,
@@ -12,7 +12,7 @@ const blogData = [
 
     },
     {
-        title: 'Two time brush in a day can keep you healthy',
+        title: 'Sensitivity Problem and Treatment',
         description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, placeat totam laborum maiores, esse assumenda porro error natus sit ipsam.        ',
         author: 'Dr. Rafi',
         authorImg: wilson,
@@ -20,7 +20,7 @@ const blogData = [
 
     },
     {
-        title: 'The tooth cancer is taking a challenge',
+        title: 'Brash and Life',
         description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, placeat totam laborum maiores, esse assumenda porro error natus sit ipsam.        ',
         author: 'Dr. M A Hasan',
         authorImg: wilson,

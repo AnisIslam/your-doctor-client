@@ -14,7 +14,7 @@ const NavBar = () => {
                 <div className="p-3 justify-content-center text-secondary collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="p-3 navbar-nav ms-auto mb-2 mb-lg-0 main-nav ">
                         <li className="nav-item ">
-                            <Link className="nav-link me-5 active" aria-current="page" to='/'>Home</Link>
+                            <Link className=" nav-link me-5 active" aria-current="page" to='/'>Home</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link me-5" to='/dashboard'>Dashboard</Link>

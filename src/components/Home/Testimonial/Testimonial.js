@@ -29,8 +29,8 @@ const testimonialData = [
 const Testimonial = () => {
     return (
         <div className='container-fluid p-5'>
-            <h5 className='py-2' style={{ color: 'var(--color-primary)' }}>TESTIMONIAL</h5>
-            <h2 style={{ color: 'var(--color-secondary)' }}>
+            <h5 className='text-center py-2' style={{ color: 'var(--color-primary)' }}>REVIEW</h5>
+            <h2 className='text-center py-2' style={{ color: 'var(--color-secondary)' }}>
                 What's Our Patients
                 <br />
                 Says

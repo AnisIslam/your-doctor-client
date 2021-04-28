@@ -9,7 +9,7 @@ const HeaderMain = () => {
             <div className="col-md-4 offset-lg-1">
                 <h1 style={{ color: '#3a4256' }}>Your New Smile<br />Starts Here</h1>
                 <p className='text-secondary'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, deleniti consequatur aspernatur quis similique explicabo.</p>
-                <button className="btn-main" onClick={() => history.push('/appointment')}>
+                <button className="rounded btn-main" onClick={() => history.push('/appointment')}>
                     GET  APPOINTMENT
                 </button>
             </div>

@@ -14,7 +14,7 @@ const Contact = () => {
                 <input className='contact-email p-2 my-2' type="text" required placeholder='Email Address*' />
                 <input className='contact-email p-2 my-2' type="text" required placeholder='Email Address*' />
                 <textarea className='contact-message p-2 my-2' required placeholder='Your Message*'></textarea>
-                <button className="btn-main py-1 my-2 align-self-center px-5">
+                <button className="rounded btn-main py-1 my-2 align-self-center px-5">
                     submit
                 </button>
             </form>

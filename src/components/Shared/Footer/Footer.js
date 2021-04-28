@@ -48,14 +48,14 @@ const Footer = () => {
                             <li className="list-inline-item"><a href="//google.com"><FontAwesomeIcon className="icon" icon={faGooglePlusG} /></a></li>
                             <li className="list-inline-item"><a href="//instagram.com"><FontAwesomeIcon className="icon" icon={faInstagram} /></a></li>
                         </ul>
-                        <div className="mt-5">
-                            <h6>Call now</h6>
-                            <button className="btn-main">+01815623457</button>
+                        <div className="mt-5 rounded">
+                            <h6 className="rounded">Call now</h6>
+                            <button className="rounded btn-main">+01815623457</button>
                         </div>
                     </FooterCol>
                 </div>
                 <div className="copyRight text-center">
-                    <p>Copyright {(new Date()).getFullYear()}&copy; All Rights Reserved by <cite>Mohammad Anisul Islam</cite></p>
+                    <p className="text-info">Copyright {(new Date()).getFullYear()}&copy; All Rights Reserved by <i>Mohammad Anisul Islam</i></p>
                 </div>
             </div>
         </footer>
